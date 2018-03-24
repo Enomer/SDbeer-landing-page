@@ -9,13 +9,10 @@ class Header extends Component {
 
 		return (
 			<header>
-				<div id="ganderType">GANDER</div>
 				<div className="navElements">
 					<nav id="ganderNav" className="">
-						<Link to="" className="navLink">Freebies </Link>
-						<Link to="" className="navLink">Product </Link>
-						<Link to="" className="navLink">Login </Link>
-						<Link to="" className="text-center" id="freeTrial">FREE TRIAL</Link>
+						<Link to="" className="navLink"> </Link>
+						<Link to="" className="navLink"> </Link>
 					</nav>
 				</div>
 			</header>
