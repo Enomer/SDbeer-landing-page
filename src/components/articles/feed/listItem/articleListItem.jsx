@@ -15,9 +15,9 @@ const ArticleListItem = ({article}) =>
       </div>
     </div>
     <div dangerouslySetInnerHTML={{ __html: article.description  }} />
-		<div><img src={article.image} width="100%"/></div>
+		{/* <div><img src={article.image} width="100%"/></div> */}
     <div>{article.quoteDate && moment(article.quoteDate).format('LLL')}</div>
-		<div>{article.visible && "Currently Active"}</div>
+		{/* <div>{article.visible && "Currently Active"}</div> */}
 		<div>{article.category}</div>
     <Route path={`/articles/${article._id}/edit`} render={()=>
       <Modal med>
