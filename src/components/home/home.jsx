@@ -63,7 +63,9 @@ class Home extends Component {
 
               { phoneType === 'Android' ?
 
-              <div class="marvel-device s5 white">
+
+              <div id="vidPlayer-android" className="align-middle align-center cell large-6 small-12">
+              <div class="marvel-device s5 black">
                 <div class="top-bar"></div>
                 <div class="sleep"></div>
                 <div class="camera"></div>
@@ -71,15 +73,16 @@ class Home extends Component {
                 <div class="speaker"></div>
                 <div class="screen">
                   <ReactPlayer
-                    id="app-vid"
+                    id="app-vid-android"
                     loop='true'
                     playing='true'
                     url='https://s3-us-west-1.amazonaws.com/sdbeer/ScreenRecording_04-03-2018+15-08-58.MP4'
-                    height="620px"
                   />
                 </div>
                 <div class="home"></div>
               </div>
+            </div>
+            
 
               :
 
