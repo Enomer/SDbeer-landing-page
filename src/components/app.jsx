@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Route,Switch} from 'react-router-dom'
 
-import Header from './header/header'
+// import Header from './header/header'
 import Footer from './footer/footer'
 
 import Home from './home/home'
@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
 			<div>
-				<Route key="header" component={Header}/>
+				{/* <Route key="header" component={Header}/> */}
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/login" component={Login} />
